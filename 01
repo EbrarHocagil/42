@@ -1,7 +1,17 @@
-k1m26s03:Desktop ehocagil$ touch testShell00
-k1m26s03:Desktop ehocagil$ chmod 455 testShell00
-k1m26s03:Desktop ehocagil$ touch testShell00.tar
-k1m26s03:Desktop ehocagil$ ls -l
+k1m26s03:ex01 ehocagil$ echo "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" > testShell00
+k1m26s03:ex01 ehocagil$ ls -l
+total 8
+-rw-r--r-- 1 ehocagil 2024_istanbul 40 Jan 22 13:34 testShell00
+k1m26s03:ex01 ehocagil$ touch -t 202406012342 testShell00
+k1m26s03:ex01 ehocagil$ ls -l
+total 8
+-rw-r--r-- 1 ehocagil 2024_istanbul 40 Jun 1 2024 testShell00
+k1m26s03:ex01 ehocagil$ chmod 455 testShell00
+k1m26s03:ex01 ehocagil$ ls -l
+total 8
+-r--r-xr-x 1 ehocagil 2024_istanbul 40 Jun 1 2024 testShell00
+k1m26s03:ex01 ehocagil$ tar -cf testShell00.tar testShell00
+k1m26s03:ex01 ehocagil$ ls -l
 total 16
--r--r-xr-x  1 ehocagil  2024_istanbul    0 Jan 22 13:13 testShell00
--rw-r--r--  1 ehocagil  2024_istanbul    0 Jan 22 13:14 testShell00.tar
+-r--r-xr-x 1 ehocagil 2024_istanbul  40 Jun 1 2024 testShell00
+-rw-r--r-- 1 ehocagil 2024_istanbul 2048 Jan 22 13:36 testShell00.tar
