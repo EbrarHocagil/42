@@ -1,7 +1,8 @@
-k1m26s03:~ ehocagil$ ls
-Desktop		Downloads	Music		goinfre
-Documents	Library		cat
-k1m26s03:~ ehocagil$ cd Desktop
-k1m26s03:Desktop ehocagil$ touch z.txt
-k1m26s03:Desktop ehocagil$ cat z.txt
+k1m26s03:~ ehocagil$ cd Desktop/
+k1m26s03:Desktop ehocagil$ cd exercise/
+k1m26s03:exercise ehocagil$ mkdir ex00
+k1m26s03:exercise ehocagil$ cd ex00
+k1m26s03:ex00 ehocagil$ touch z
+k1m26s03:ex00 ehocagil$ echo "Z" > z
+k1m26s03:ex00 ehocagil$ cat z
 Z
