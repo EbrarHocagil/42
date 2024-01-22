@@ -1,0 +1,8 @@
+k1m26s03:~ ehocagil$ ls
+Desktop		Downloads	Music		goinfre
+Documents	Library		cat
+k1m26s03:~ ehocagil$ cd Desktop
+k1m26s03:Desktop ehocagil$ touch z.txt
+k1m26s03:Desktop ehocagil$ cat z.txt
+Z
+
