@@ -1,0 +1,7 @@
+k1m26s03:Desktop ehocagil$ touch testShell00
+k1m26s03:Desktop ehocagil$ chmod 455 testShell00
+k1m26s03:Desktop ehocagil$ touch testShell00.tar
+k1m26s03:Desktop ehocagil$ ls -l
+total 16
+-r--r-xr-x  1 ehocagil  2024_istanbul    0 Jan 22 13:13 testShell00
+-rw-r--r--  1 ehocagil  2024_istanbul    0 Jan 22 13:14 testShell00.tar
