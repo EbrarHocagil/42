@@ -1,0 +1,51 @@
+k1m20s01:~ ehocagil$ cd Desktop/
+k1m20s01:Desktop ehocagil$ cd exercise/
+k1m20s01:exercise ehocagil$ cd ex02
+k1m20s01:ex02 ehocagil$ mkdir test0
+k1m20s01:ex02 ehocagil$ echo "111" > test1
+k1m20s01:ex02 ehocagil$ mkdir test2
+k1m20s01:ex02 ehocagil$ echo "" > test3
+k1m20s01:ex02 ehocagil$ echo "1" > test4
+k1m20s01:ex02 ehocagil$ echo "" > test5
+k1m20s01:ex02 ehocagil$ ln -s test0 test6
+k1m20s01:ex02 ehocagil$ ls -l
+total 40
+drwxr-xr-x 2 ehocagil 2024_istanbul 68 Jan 23 12:41 test0
+-rw-r--r-- 1 ehocagil 2024_istanbul  4 Jan 23 12:41 test1
+drwxr-xr-x 2 ehocagil 2024_istanbul 68 Jan 23 12:41 test2
+-rw-r--r-- 1 ehocagil 2024_istanbul  1 Jan 23 12:42 test3
+-rw-r--r-- 1 ehocagil 2024_istanbul  2 Jan 23 12:42 test4
+-rw-r--r-- 1 ehocagil 2024_istanbul  1 Jan 23 12:42 test5
+lrwxr-xr-x 1 ehocagil 2024_istanbul  5 Jan 23 12:43 test6 -> test0
+k1m20s01:ex02 ehocagil$ chmod 715 test0
+k1m20s01:ex02 ehocagil$ chmod 714 test1
+k1m20s01:ex02 ehocagil$ chmod 504 test2
+k1m20s01:ex02 ehocagil$ chmod 404 test3
+k1m20s01:ex02 ehocagil$ chmod 641 test4
+k1m20s01:ex02 ehocagil$ chmod 404 test5
+k1m20s01:ex02 ehocagil$ chmod -h 777 test6
+k1m20s01:ex02 ehocagil$ ls -l
+total 40
+drwx--xr-x 2 ehocagil 2024_istanbul 68 Jan 23 12:41 test0
+-rwx--xr-- 1 ehocagil 2024_istanbul  4 Jan 23 12:41 test1
+dr-x---r-- 2 ehocagil 2024_istanbul 68 Jan 23 12:41 test2
+-r-----r-- 1 ehocagil 2024_istanbul  1 Jan 23 12:42 test3
+-rw-r----x 1 ehocagil 2024_istanbul  2 Jan 23 12:42 test4
+-r-----r-- 1 ehocagil 2024_istanbul  1 Jan 23 12:42 test5
+lrwxrwxrwx 1 ehocagil 2024_istanbul  5 Jan 23 12:43 test6 -> test0
+k1m20s01:ex02 ehocagil$ touch -t 202406012047 test0
+k1m20s01:ex02 ehocagil$ touch -t 202406012146 test1
+k1m20s01:ex02 ehocagil$ touch -t 202406012245 test2
+k1m20s01:ex02 ehocagil$ touch -t 202406012344 test3
+k1m20s01:ex02 ehocagil$ touch -t 202406012343 test4
+k1m20s01:ex02 ehocagil$ touch -t 202406012344 test5
+k1m20s01:ex02 ehocagil$ touch -t 202406012220 test6
+k1m20s01:ex02 ehocagil$ ls -l
+total 40
+drwx--xr-x 2 ehocagil 2024_istanbul 68 Jun 1 2024 test0
+-rwx--xr-- 1 ehocagil 2024_istanbul  4 Jun 1 2024 test1
+dr-x---r-- 2 ehocagil 2024_istanbul 68 Jun 1 2024 test2
+-r-----r-- 1 ehocagil 2024_istanbul  1 Jun 1 2024 test3
+-rw-r----x 1 ehocagil 2024_istanbul  2 Jun 1 2024 test4
+-r-----r-- 1 ehocagil 2024_istanbul  1 Jun 1 2024 test5
+lrwxrwxrwx 1 ehocagil 2024_istanbul  5 Jan 23 12:43 test6 -> test0
