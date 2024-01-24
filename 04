@@ -1,0 +1,7 @@
+k1m20s06:~ ehocagil$ cd Desktop/
+k1m20s06:Desktop ehocagil$ cd exercise/
+k1m20s06:exercise ehocagil$ mkdir ex04
+k1m20s06:exercise ehocagil$ cd ex04
+k1m20s06:ex04 ehocagil$ vim midLS
+k1m20s06:ex04 ehocagil$ ls -temp
+midLS
