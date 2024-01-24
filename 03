@@ -1,0 +1,32 @@
+k1m20s06:~ ehocagil$ cd Desktop/
+k1m20s06:Desktop ehocagil$ cd exercise/
+k1m20s06:exercise ehocagil$ mkdir ex03
+k1m20s06:exercise ehocagil$ cd ex03
+k1m20s06:ex03 ehocagil$ touch id_rsa_pub
+k1m20s06:ex03 ehocagil$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/ehocagil/.ssh/id_rsa): 
+/Users/ehocagil/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/ehocagil/.ssh/id_rsa.
+Your public key has been saved in /Users/ehocagil/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:3P0XWTelRRWwdM04aLDgptWPMHngU59SZ7JFg6BXjNo ehocagil@k1m20s06.42istanbul.com.tr
+The key's randomart image is:
++---[RSA 3072]----+
+|        o +=+*B*O|
+|       o B.=*B=++|
+|        @o*.+..oo|
+|       =.BE=    =|
+|      . S o o  o |
+|             .  .|
+|              . .|
+|               . |
+|                 |
++----[SHA256]-----+
+k1m20s06:ex03 ehocagil$ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDSbEDy7M1i+tzF7HlMT/rhXrpJ/i94s7w9r7EtkRave0LNg1v8jmVUo2cEVprCw/9SFRxo2Zof8NWCEpChH2R2HefcwiQcgqu5Wpg/7p95n8a7c1YDP4US/Crsf0eoAu/68m3YZBIT/9Y0hjlHGLo6KhaqHEye3LjIc+ydXr/T9iJXzxBFYWTpQ7nmK2gw3m13mJKQJ+WIUwzKDhR1fBNytwdEIkGlbKwCqgwWjk2IOvN2LhEzwvit38myEvaP7u3NsS2+mLO62Yo78W9wLPL+Ey54WTnhta/KU/Xev2mIcNhjU8QNTpO+gHX7yYFOQDgg0yRSoGU4Xu8+A5jUpQ5uMGQYj904Z+uYTyRmKDDhQ4lOni6XGGSe2EWk2ldBfkdokD4mHxg2P+XtJjQ7LVWbozZ8J1/+27BfxIMV8+0lb7ofXtO5pUq6GgEzosSvi/FcCoQLCFe0EAjUBveGZIam9R35WyKQY30j5u6OrAa8nd3CjS0xmhld6eISlYWY96M= ehocagil@k1m20s06.42istanbul.com.tr
+k1m20s06:ex03 ehocagil$ vim id_rsa_pub 
+k1m20s06:ex03 ehocagil$ 
